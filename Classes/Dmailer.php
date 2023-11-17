@@ -53,6 +53,7 @@ class Dmailer implements LoggerAwareInterface
     protected string $userDmailerLang = 'en';
     protected bool $testmail = false;
     protected string $charset = '';
+    protected string $linebreak;
 
     /*
      * @var string
